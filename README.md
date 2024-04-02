@@ -118,7 +118,7 @@ $ dot shell_bind_tcp.dot -Tpng -o shell_bind_tcp.png
 ```
 This will produce the following flowchart.
 
-![alt text](https://github.com/71FuDD/metasploit-shellcode-analysis-shell_bind_tcp/blob/master/img/shell_bind_tcp.png "Shellcode Analysis Flowchart")
+![alt text](https://github.com/71FuDD/metasploit-shellcode-analysis-shell_bind_tcp/blob/main/img/shell_bind_tcp.png "Shellcode Analysis Flowchart")
 
 The benefit of such a flowchart is that modularization of the analysis becomes much simpler, the modularization started in the previous step ,the initial libemu analysis, but is confirmed in more detail within the execution flowchart. From here a more detailed analysis and merge of the libemu and disassembly can begin in earnest.
 
